@@ -1,6 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:fmdb"
+      name = "fmdb">
+      <FileRef
+         location = "group:CHANGES_AND_TODO_LIST.txt">
+      </FileRef>
+      <FileRef
+         location = "group:CONTRIBUTORS.txt">
+      </FileRef>
+      <Group
+         location = "group:extra"
+         name = "extra">
+         <FileRef
+            location = "group:FMDatabase+InMemoryOnDiskIO.h">
+         </FileRef>
+         <FileRef
+            location = "group:FMDatabase+InMemoryOnDiskIO.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:fmdb.1">
+      </FileRef>
+      <FileRef
+         location = "group:fmdb.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:fmdb_Prefix.pch">
+      </FileRef>
+      <FileRef
+         location = "group:LICENSE.txt">
+      </FileRef>
+      <FileRef
+         location = "group:README.markdown">
+      </FileRef>
+      <Group
+         location = "group:src"
+         name = "src">
+         <FileRef
+            location = "group:FMDatabase.h">
+         </FileRef>
+         <FileRef
+            location = "group:FMDatabase.m">
+         </FileRef>
+         <FileRef
+            location = "group:FMDatabaseAdditions.h">
+         </FileRef>
+         <FileRef
+            location = "group:FMDatabaseAdditions.m">
+         </FileRef>
+         <FileRef
+            location = "group:FMDatabasePool.h">
+         </FileRef>
+         <FileRef
+            location = "group:FMDatabasePool.m">
+         </FileRef>
+         <FileRef
+            location = "group:FMDatabaseQueue.h">
+         </FileRef>
+         <FileRef
+            location = "group:FMDatabaseQueue.m">
+         </FileRef>
+         <FileRef
+            location = "group:fmdb.m">
+         </FileRef>
+         <FileRef
+            location = "group:FMResultSet.h">
+         </FileRef>
+         <FileRef
+            location = "group:FMResultSet.m">
+         </FileRef>
+      </Group>
+   </Group>
    <FileRef
       location = "group:FoodSelectorApp/FoodSelectorApp.xcodeproj">
    </FileRef>
