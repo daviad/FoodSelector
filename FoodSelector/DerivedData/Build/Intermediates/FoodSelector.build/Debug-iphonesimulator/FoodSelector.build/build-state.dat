@@ -1,0 +1,271 @@
+TFoodSelector
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/Info.plist FoodSelector/FoodSelector-Info.plist
+cProcessPCH /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/PrecompiledHeaders/FoodSelector-Prefix-cbbbonkijbzudiffixofcnpohegr/FoodSelector-Prefix.pch.pth FoodSelector/FoodSelector-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/Objects-normal/i386/main.o /Users/yefeng/Desktop/FoodSelector/FoodSelector/FoodSelector/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/Objects-normal/i386/AppDelegate.o /Users/yefeng/Desktop/FoodSelector/FoodSelector/FoodSelector/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/FoodSelector normal i386
+cGenerateDSYMFile /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app.dSYM /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/FoodSelector
+cCopyStringsFile /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/en.lproj/InfoPlist.strings FoodSelector/en.lproj/InfoPlist.strings
+cCpResource FoodSelector/Default.png DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/Default.png
+cCpResource FoodSelector/Default@2x.png DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/Default@2x.png
+cCpResource FoodSelector/Default-568h@2x.png DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/Default-568h@2x.png
+cTouch /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+c00000000504916AD0000000000000110
+t1346967213
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000050D747070000000000228FD0
+t1356285703
+s2265040
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000050D7470C00000000003DCEF0
+t1356285708
+s4050672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c0000000050D7470B00000000000015F7
+t1356285707
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c0000000050D747150000000000000E8D
+t1356285717
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000050D747170000000000AB3D60
+t1356285719
+s11222368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/Availability.h
+c0000000050D747330000000000001B54
+t1356285747
+s6996
+
+N/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/Objects-normal/i386/FoodSelector.LinkFileList
+c000000005131AA760000000000000155
+t1362209398
+s341
+
+N/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/PrecompiledHeaders/FoodSelector-Prefix-cbbbonkijbzudiffixofcnpohegr/FoodSelector-Prefix.pch.pth
+t2
+s0
+
+N/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app
+t2
+s0
+
+N/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app.dSYM
+t2
+s0
+
+N/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/Default.png
+t2
+s0
+
+N/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/Default@2x.png
+t2
+s0
+
+N/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/FoodSelector
+t2
+s0
+
+N/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/Info.plist
+t2
+s0
+
+N/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/PkgInfo
+t2
+s0
+
+N/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/yefeng/Desktop/FoodSelector/FoodSelector/FoodSelector/AppDelegate.m
+c000000005131AA3B0000000000000884
+t1362209339
+s2180
+
+N/Users/yefeng/Desktop/FoodSelector/FoodSelector/FoodSelector/Default-568h@2x.png
+c0000000050748B2300000000000048A2
+t1349815075
+s18594
+
+N/Users/yefeng/Desktop/FoodSelector/FoodSelector/FoodSelector/Default.png
+c0000000050748B23000000000000198C
+t1349815075
+s6540
+
+N/Users/yefeng/Desktop/FoodSelector/FoodSelector/FoodSelector/Default@2x.png
+c0000000050748B230000000000003EEB
+t1349815075
+s16107
+
+N/Users/yefeng/Desktop/FoodSelector/FoodSelector/FoodSelector/FoodSelector-Prefix.pch
+c000000005131AA3B0000000000000147
+t1362209339
+s327
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/yefeng/Desktop/FoodSelector/FoodSelector/FoodSelector/en.lproj/InfoPlist.strings
+c000000005131AA3B000000000000002D
+t1362209339
+s45
+
+N/Users/yefeng/Desktop/FoodSelector/FoodSelector/FoodSelector/main.m
+c000000005131AA3B0000000000000154
+t1362209339
+s340
+
+NFoodSelector/FoodSelector-Info.plist
+c000000005131AA3B000000000000048B
+t1362209339
+s1163
+
+CBuild AST from /Users/yefeng/Desktop/FoodSelector/FoodSelector/FoodSelector/AppDelegate.m
+r0
+
+CBuild AST from /Users/yefeng/Desktop/FoodSelector/FoodSelector/FoodSelector/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd55ccef6e1e1b641^5da8dcf6e1e1b641^---0#1#0#--18"Check dependencies36"D2F5450A-5E9F-4F87-BD84-96B4BC22A3D9-
+
+CCompileC DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/Objects-normal/i386/AppDelegate.o /Users/yefeng/Desktop/FoodSelector/FoodSelector/FoodSelector/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383902199.533594
+e383902199.728029
+r1
+xCompileC
+xDerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/Objects-normal/i386/AppDelegate.o
+x/Users/yefeng/Desktop/FoodSelector/FoodSelector/FoodSelector/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/yefeng/Desktop/FoodSelector/FoodSelector/FoodSelector/AppDelegate.m83be88f7e1e1b641^4a61baf7e1e1b641^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/yefeng/Desktop/FoodSelector/FoodSelector/FoodSelector/AppDelegate.m0000000000000000^4085"CompileC DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/Objects-normal/i386/AppDelegate.o FoodSelector/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yefeng/Desktop/FoodSelector/FoodSelector    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/FoodSelector-generated-files.hmap -I/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/FoodSelector-own-target-headers.hmap -I/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/FoodSelector-all-target-headers.hmap -iquote /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/FoodSelector-project-headers.hmap -I/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/DerivedSources/i386 -I/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/DerivedSources -F/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator -include /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/PrecompiledHeaders/FoodSelector-Prefix-cbbbonkijbzudiffixofcnpohegr/FoodSelector-Prefix.pch -MMD -MT dependencies -MF /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/Objects-normal/i386/AppDelegate.dia -c /Users/yefeng/Desktop/FoodSelector/FoodSelector/FoodSelector/AppDelegate.m -o /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/Objects-normal/i386/AppDelegate.o36"C95F5FCB-B0A4-42B5-B1A8-EAB7495E436B-
+
+CCompileC DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/Objects-normal/i386/main.o /Users/yefeng/Desktop/FoodSelector/FoodSelector/FoodSelector/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383902199.533546
+e383902199.716194
+r1
+xCompileC
+xDerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/Objects-normal/i386/main.o
+x/Users/yefeng/Desktop/FoodSelector/FoodSelector/FoodSelector/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/yefeng/Desktop/FoodSelector/FoodSelector/FoodSelector/main.me2cb88f7e1e1b641^5a68b7f7e1e1b641^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/yefeng/Desktop/FoodSelector/FoodSelector/FoodSelector/main.m0000000000000000^4043"CompileC DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/Objects-normal/i386/main.o FoodSelector/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yefeng/Desktop/FoodSelector/FoodSelector    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/FoodSelector-generated-files.hmap -I/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/FoodSelector-own-target-headers.hmap -I/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/FoodSelector-all-target-headers.hmap -iquote /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/FoodSelector-project-headers.hmap -I/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/DerivedSources/i386 -I/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/DerivedSources -F/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator -include /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/PrecompiledHeaders/FoodSelector-Prefix-cbbbonkijbzudiffixofcnpohegr/FoodSelector-Prefix.pch -MMD -MT dependencies -MF /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/Objects-normal/i386/main.dia -c /Users/yefeng/Desktop/FoodSelector/FoodSelector/FoodSelector/main.m -o /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/Objects-normal/i386/main.o36"234125DD-AB80-4314-A8DE-E471F4416553-
+
+CCopyStringsFile /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/en.lproj/InfoPlist.strings FoodSelector/en.lproj/InfoPlist.strings
+s383902200.692686
+e383902200.703563
+r1
+xCopyStringsFile
+x/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/en.lproj/InfoPlist.strings
+xFoodSelector/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy FoodSelector/en.lproj/InfoPlist.strings876fb1f8e1e1b641^b859b4f8e1e1b641^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/yefeng/Desktop/FoodSelector/FoodSelector/FoodSelector/en.lproj/InfoPlist.strings0000000000000000^655"CopyStringsFile DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/en.lproj/InfoPlist.strings FoodSelector/en.lproj/InfoPlist.strings    cd /Users/yefeng/Desktop/FoodSelector/FoodSelector    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/en.lproj -- FoodSelector/en.lproj/InfoPlist.strings36"034FE8D5-26C9-4F8C-A5FD-03DF9A61E7F2-
+
+CCpResource FoodSelector/Default-568h@2x.png DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/Default-568h@2x.png
+s383902200.705506
+e383902200.710279
+r1
+xCpResource
+xFoodSelector/Default-568h@2x.png
+xDerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Copy DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/Default-568h@2x.png9fb0b4f8e1e1b641^f5d5b5f8e1e1b641^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/Default-568h@2x.png000000000080d041^693"CpResource "FoodSelector/Default-568h@2x.png" "DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/Default-568h@2x.png"    cd /Users/yefeng/Desktop/FoodSelector/FoodSelector    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/yefeng/Desktop/FoodSelector/FoodSelector/FoodSelector/Default-568h@2x.png" /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app36"AEE374CC-5954-499F-811D-A90D254B902E-
+
+CCpResource FoodSelector/Default.png DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/Default.png
+s383902200.693412
+e383902200.704106
+r1
+xCpResource
+xFoodSelector/Default.png
+xDerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Copy DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/Default.png3a94b1f8e1e1b641^b35eb4f8e1e1b641^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/Default.png000000000080d041^663"CpResource FoodSelector/Default.png DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/Default.png    cd /Users/yefeng/Desktop/FoodSelector/FoodSelector    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yefeng/Desktop/FoodSelector/FoodSelector/FoodSelector/Default.png /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app36"E897936E-78EC-4777-A3B9-F45C1FB9CF59-
+
+CCpResource FoodSelector/Default@2x.png DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/Default@2x.png
+s383902200.704914
+e383902200.709368
+r1
+xCpResource
+xFoodSelector/Default@2x.png
+xDerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Copy DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/Default@2x.png698eb4f8e1e1b641^38a4b5f8e1e1b641^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/Default@2x.png000000000080d041^678"CpResource "FoodSelector/Default@2x.png" "DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/Default@2x.png"    cd /Users/yefeng/Desktop/FoodSelector/FoodSelector    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/yefeng/Desktop/FoodSelector/FoodSelector/FoodSelector/Default@2x.png" /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app36"2AEE12B6-7E4B-460A-9F53-EC7FE4A332CE-
+
+CGenerateDSYMFile /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app.dSYM /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/FoodSelector
+s383902200.530225
+e383902200.679307
+r1
+xGenerateDSYMFile
+x/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app.dSYM
+x/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/FoodSelector
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Generating /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app.dSYMa4e287f8e1e1b641^0ce8adf8e1e1b641^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app.dSYM000000000080d041^766"GenerateDSYMFile DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app.dSYM DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/FoodSelector    cd /Users/yefeng/Desktop/FoodSelector/FoodSelector    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/FoodSelector -o /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app.dSYM36"9F7268BC-7553-4E42-BCB8-D022D9D77499-
+
+CLd /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/FoodSelector normal i386
+s383902199.739011
+e383902200.521096
+r1
+xLd
+x/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/FoodSelector
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Link /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/FoodSelector1a4ebdf7e1e1b641^1f6885f8e1e1b641^---0#0#0#--1337"Ld DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/FoodSelector normal i386    cd /Users/yefeng/Desktop/FoodSelector/FoodSelector    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -L/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator -F/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator -filelist /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/Objects-normal/i386/FoodSelector.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/FoodSelector36"2E66CEFA-2FE8-4163-84BE-541D0441D4E8-
+
+CProcessInfoPlistFile /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/Info.plist FoodSelector/FoodSelector-Info.plist
+s383902198.878264
+e383902198.889208
+r1
+xProcessInfoPlistFile
+x/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/Info.plist
+xFoodSelector/FoodSelector-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Process FoodSelector/FoodSelector-Info.plist9127e1f6e1e1b641^22abe3f6e1e1b641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/yefeng/Desktop/FoodSelector/FoodSelector/FoodSelector/FoodSelector-Info.plist0000000000000000^775"ProcessInfoPlistFile DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/Info.plist FoodSelector/FoodSelector-Info.plist    cd /Users/yefeng/Desktop/FoodSelector/FoodSelector    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility FoodSelector/FoodSelector-Info.plist -genpkginfo /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app/Info.plist36"41FB891C-B67C-4DE3-BD1B-7704FD6E5417-
+
+CProcessPCH /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/PrecompiledHeaders/FoodSelector-Prefix-cbbbonkijbzudiffixofcnpohegr/FoodSelector-Prefix.pch.pth FoodSelector/FoodSelector-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383902198.905214
+e383902199.524917
+r1
+xProcessPCH
+x/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/PrecompiledHeaders/FoodSelector-Prefix-cbbbonkijbzudiffixofcnpohegr/FoodSelector-Prefix.pch.pth
+xFoodSelector/FoodSelector-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile FoodSelector/FoodSelector-Prefix.pch541be8f6e1e1b641^3e7786f7e1e1b641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/yefeng/Desktop/FoodSelector/FoodSelector/FoodSelector/FoodSelector-Prefix.pch0000000000000000^3937"ProcessPCH DerivedData/Build/Intermediates/PrecompiledHeaders/FoodSelector-Prefix-cbbbonkijbzudiffixofcnpohegr/FoodSelector-Prefix.pch.pth FoodSelector/FoodSelector-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yefeng/Desktop/FoodSelector/FoodSelector    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/FoodSelector-generated-files.hmap -I/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/FoodSelector-own-target-headers.hmap -I/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/FoodSelector-all-target-headers.hmap -iquote /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/FoodSelector-project-headers.hmap -I/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/DerivedSources/i386 -I/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/FoodSelector.build/Debug-iphonesimulator/FoodSelector.build/DerivedSources -F/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/PrecompiledHeaders/FoodSelector-Prefix-cbbbonkijbzudiffixofcnpohegr/FoodSelector-Prefix.pch.dia -c /Users/yefeng/Desktop/FoodSelector/FoodSelector/FoodSelector/FoodSelector-Prefix.pch -o /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/PrecompiledHeaders/FoodSelector-Prefix-cbbbonkijbzudiffixofcnpohegr/FoodSelector-Prefix.pch.pth -MMD -MT dependencies -MF /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Intermediates/PrecompiledHeaders/FoodSelector-Prefix-cbbbonkijbzudiffixofcnpohegr/FoodSelector-Prefix.pch.d36"CF907FBB-0567-4D6C-AC8C-399918663E59-
+
+CProcessPCH /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/FoodSelector/Index/PrecompiledHeaders/FoodSelector-Prefix-ehxqbzzssyhgeadkpgdupjuqgnwq_ast/FoodSelector-Prefix.pch.pth FoodSelector/FoodSelector-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app
+s383902200.720273
+e383902200.733710
+r1
+xTouch
+x/Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Touch /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app8c86b8f8e1e1b641^5ad8bbf8e1e1b641^---0#0#0#--458"Touch DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app    cd /Users/yefeng/Desktop/FoodSelector/FoodSelector    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/yefeng/Desktop/FoodSelector/FoodSelector/DerivedData/Build/Products/Debug-iphonesimulator/FoodSelector.app36"23AB0A66-44E1-44E7-93C7-D0480D1D5CF3-
+
