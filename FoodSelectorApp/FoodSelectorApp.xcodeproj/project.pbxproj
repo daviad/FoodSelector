@@ -16,6 +16,7 @@
 		522B24B216E2239400A660C0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 522B24B116E2239400A660C0 /* Default.png */; };
 		522B24B416E2239400A660C0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 522B24B316E2239400A660C0 /* Default@2x.png */; };
 		522B24B616E2239400A660C0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 522B24B516E2239400A660C0 /* Default-568h@2x.png */; };
+		522B24BD16E223D000A660C0 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522B24BC16E223D000A660C0 /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		522B24B116E2239400A660C0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		522B24B316E2239400A660C0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		522B24B516E2239400A660C0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		522B24BC16E223D000A660C0 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522B24BD16E223D000A660C0 /* iAd.framework in Frameworks */,
 				522B24A016E2239400A660C0 /* UIKit.framework in Frameworks */,
 				522B24A216E2239400A660C0 /* Foundation.framework in Frameworks */,
 				522B24A416E2239400A660C0 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +71,7 @@
 		522B249E16E2239400A660C0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				522B24BC16E223D000A660C0 /* iAd.framework */,
 				522B249F16E2239400A660C0 /* UIKit.framework */,
 				522B24A116E2239400A660C0 /* Foundation.framework */,
 				522B24A316E2239400A660C0 /* CoreGraphics.framework */,
@@ -239,6 +243,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FoodSelectorApp/FoodSelectorApp-Prefix.pch";
 				INFOPLIST_FILE = "FoodSelectorApp/FoodSelectorApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -250,6 +255,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FoodSelectorApp/FoodSelectorApp-Prefix.pch";
 				INFOPLIST_FILE = "FoodSelectorApp/FoodSelectorApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
