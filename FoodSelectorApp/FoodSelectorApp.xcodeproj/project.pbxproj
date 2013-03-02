@@ -17,36 +17,10 @@
 		522B24B416E2239400A660C0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 522B24B316E2239400A660C0 /* Default@2x.png */; };
 		522B24B616E2239400A660C0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 522B24B516E2239400A660C0 /* Default-568h@2x.png */; };
 		522B24BD16E223D000A660C0 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522B24BC16E223D000A660C0 /* iAd.framework */; };
-		522B24C716E2363400A660C0 /* fmdb.xcodeproj in Resources */ = {isa = PBXBuildFile; fileRef = 522B24C616E2363400A660C0 /* fmdb.xcodeproj */; };
-		522B24DB16E236FE00A660C0 /* libFMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 522B24D716E2367D00A660C0 /* libFMDB.a */; };
 		52E32C2D16E23EC5001EE6CD /* BaseiAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E32C2C16E23EC5001EE6CD /* BaseiAdViewController.m */; };
 		52E32C3016E23F07001EE6CD /* FoodListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E32C2F16E23F07001EE6CD /* FoodListController.m */; };
 		52E32C3316E241E4001EE6CD /* EditFoodController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E32C3216E241E4001EE6CD /* EditFoodController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		522B24D416E2367D00A660C0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 522B24C616E2363400A660C0 /* fmdb.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8DD76FA10486AA7600D96B5E;
-			remoteInfo = fmdb;
-		};
-		522B24D616E2367D00A660C0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 522B24C616E2363400A660C0 /* fmdb.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EE4290EF12B42F870088BD94;
-			remoteInfo = FMDB;
-		};
-		522B24D916E236A200A660C0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 522B24C616E2363400A660C0 /* fmdb.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = EE4290EE12B42F870088BD94;
-			remoteInfo = FMDB;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		522B249B16E2239400A660C0 /* FoodSelectorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodSelectorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,7 +37,6 @@
 		522B24B316E2239400A660C0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		522B24B516E2239400A660C0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		522B24BC16E223D000A660C0 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
-		522B24C616E2363400A660C0 /* fmdb.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = fmdb.xcodeproj; path = ../fmdb/fmdb.xcodeproj; sourceTree = "<group>"; };
 		52E32C2B16E23EC5001EE6CD /* BaseiAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseiAdViewController.h; sourceTree = "<group>"; };
 		52E32C2C16E23EC5001EE6CD /* BaseiAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseiAdViewController.m; sourceTree = "<group>"; };
 		52E32C2E16E23F07001EE6CD /* FoodListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodListController.h; sourceTree = "<group>"; };
@@ -77,7 +50,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				522B24DB16E236FE00A660C0 /* libFMDB.a in Frameworks */,
 				522B24BD16E223D000A660C0 /* iAd.framework in Frameworks */,
 				522B24A016E2239400A660C0 /* UIKit.framework in Frameworks */,
 				522B24A216E2239400A660C0 /* Foundation.framework in Frameworks */,
@@ -143,19 +115,9 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		522B24D016E2367D00A660C0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				522B24D516E2367D00A660C0 /* fmdb */,
-				522B24D716E2367D00A660C0 /* libFMDB.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		522B24DC16E2372700A660C0 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				522B24C616E2363400A660C0 /* fmdb.xcodeproj */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
@@ -194,7 +156,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				522B24DA16E236A200A660C0 /* PBXTargetDependency */,
 			);
 			name = FoodSelectorApp;
 			productName = FoodSelectorApp;
@@ -220,35 +181,12 @@
 			mainGroup = 522B249016E2239400A660C0;
 			productRefGroup = 522B249C16E2239400A660C0 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 522B24D016E2367D00A660C0 /* Products */;
-					ProjectRef = 522B24C616E2363400A660C0 /* fmdb.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				522B249A16E2239400A660C0 /* FoodSelectorApp */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		522B24D516E2367D00A660C0 /* fmdb */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = fmdb;
-			remoteRef = 522B24D416E2367D00A660C0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		522B24D716E2367D00A660C0 /* libFMDB.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libFMDB.a;
-			remoteRef = 522B24D616E2367D00A660C0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		522B249916E2239400A660C0 /* Resources */ = {
@@ -259,7 +197,6 @@
 				522B24B216E2239400A660C0 /* Default.png in Resources */,
 				522B24B416E2239400A660C0 /* Default@2x.png in Resources */,
 				522B24B616E2239400A660C0 /* Default-568h@2x.png in Resources */,
-				522B24C716E2363400A660C0 /* fmdb.xcodeproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,14 +216,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		522B24DA16E236A200A660C0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FMDB;
-			targetProxy = 522B24D916E236A200A660C0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		522B24A816E2239400A660C0 /* InfoPlist.strings */ = {
