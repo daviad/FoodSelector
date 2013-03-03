@@ -91,7 +91,6 @@
 		522B249016E2239400A660C0 = {
 			isa = PBXGroup;
 			children = (
-				52E32C5216E329B4001EE6CD /* QuartzCore.framework */,
 				522B24DC16E2372700A660C0 /* Dependencies */,
 				522B24A516E2239400A660C0 /* FoodSelectorApp */,
 				522B249E16E2239400A660C0 /* Frameworks */,
@@ -110,6 +109,7 @@
 		522B249E16E2239400A660C0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				52E32C5216E329B4001EE6CD /* QuartzCore.framework */,
 				522B24BC16E223D000A660C0 /* iAd.framework */,
 				522B249F16E2239400A660C0 /* UIKit.framework */,
 				522B24A116E2239400A660C0 /* Foundation.framework */,
