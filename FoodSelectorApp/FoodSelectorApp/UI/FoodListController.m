@@ -7,7 +7,8 @@
 //
 
 #import "FoodListController.h"
-
+#import "FoodDAO.h"
+#import "DMFood.h"
 @interface FoodListController ()
 {
     UITableView *foodTB;
@@ -52,7 +53,8 @@
 
 -(void)readDataFromDB
 {
-    [];
+    DMFood *f =[[DMFood alloc] init];
+    self.foodArr = [f searchAllFood];
 }
 
 - (void)didReceiveMemoryWarning

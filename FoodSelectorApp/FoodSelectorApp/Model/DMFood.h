@@ -18,4 +18,5 @@
 
 +(NSMutableArray *)converFromDBDicArr:(NSArray*)arr;
 -(void)converFromSingleDBDic:(NSDictionary *)dic;
+-(NSMutableArray *)searchAllFood;
 @end

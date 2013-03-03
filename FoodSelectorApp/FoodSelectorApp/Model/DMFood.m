@@ -7,6 +7,12 @@
 //
 
 #import "DMFood.h"
+#import "FoodDAO.h"
+@interface DMFood()
+{
+    FoodDAO *dao;
+}
+@end
 
 @implementation DMFood
 @synthesize foodId;
@@ -14,13 +20,40 @@
 @synthesize price;
 @synthesize selectedCount;
 @synthesize type;
+
+-(id)init
+{
+    if (self = [super init])
+    {
+        dao = [[FoodDAO alloc] init];
+        dao.tableName = TABLE_NAME_FOOD;
+    }
+    return self;
+}
 +(NSMutableArray *)converFromDBDicArr:(NSArray*)arr
 {
-    NSMutableArray *resultArr = [[NSMutableArray alloc] init];
+    NSMutableArray *resultArr = [[NSMutableArray alloc] initWithCapacity:arr.count];
+    for (NSDictionary *dic in arr)
+    {
+        DMFood *food = [[DMFood alloc] init];
+        [food converFromSingleDBDic:dic];
+        [resultArr addObject:food];
+    }
     return resultArr;
 }
 -(void)converFromSingleDBDic:(NSDictionary *)dic
 {
-    self.name = [dic objectForKey:@""];
+    self.name = [dic objectForKey:FOOD_NAME];
+}
+
+
+-(NSMutableArray *)searchAllFood
+{
+    NSArray* arr = [dao search:[NSDictionary dictionary] type:0 waitUntiDone:YES];
+    NSMutableArray *resultArr = [NSMutableArray arrayWithCapacity:arr.count];
+    
+    resultArr = [DMFood converFromDBDicArr:arr];
+ 
+    return  resultArr;
 }
 @end

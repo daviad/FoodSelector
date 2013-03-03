@@ -10,7 +10,9 @@
 #import "DMFood.h"
 #import "FoodDAO.h"
 @interface EditFoodController ()
-
+{
+    UITextField *foodNameField;
+}
 @end
 
 @implementation EditFoodController
@@ -28,6 +30,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    foodNameField = [[UITextField alloc] initWithFrame:CGRectMake(10, 10, 100, 50)];
+    foodNameField.backgroundColor = [UIColor redColor];
+    [self.view addSubview:foodNameField];
 }
 
 - (void)didReceiveMemoryWarning
@@ -39,12 +44,19 @@
 
 -(void)save
 {
+    NSString *temStr = foodNameField.text;
+    if (!temStr  || [[temStr stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet] ] isEqualToString:@""])
+    {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:@"please " delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+        [alert show];
+    }
+    else
+    {
     DMFood *food = [[DMFood alloc] init];
-    food.name = @"name1";
-    
+    food.name = temStr;
     NSDictionary *dic = @{FOOD_NAME: @"name1"};
-    
     FoodDAO *dao = [[FoodDAO alloc] init];
     [dao save:dic type:0 waitUntilDone:NO];
+    }
 }
 @end
