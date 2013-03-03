@@ -8,6 +8,6 @@
 
 #import "BaseiAdViewController.h"
 
-@interface FoodListController : BaseiAdViewController
+@interface FoodListController : BaseiAdViewController<UITableViewDelegate,UITableViewDataSource>
 
 @end

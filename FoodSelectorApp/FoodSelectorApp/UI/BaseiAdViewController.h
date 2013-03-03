@@ -10,5 +10,6 @@
 #import <iAd/iAd.h>
 @interface BaseiAdViewController : UIViewController
 {
+    ADBannerView *bannerView;
 }
 @end

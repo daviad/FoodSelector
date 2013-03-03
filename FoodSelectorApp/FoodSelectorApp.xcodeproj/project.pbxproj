@@ -21,7 +21,27 @@
 		52E32C3016E23F07001EE6CD /* FoodListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E32C2F16E23F07001EE6CD /* FoodListController.m */; };
 		52E32C3316E241E4001EE6CD /* EditFoodController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E32C3216E241E4001EE6CD /* EditFoodController.m */; };
 		52E32C4216E266C1001EE6CD /* fmdb.xcodeproj in Resources */ = {isa = PBXBuildFile; fileRef = 52E32C4116E266C1001EE6CD /* fmdb.xcodeproj */; };
+		52E32C4616E267C9001EE6CD /* DMFood.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E32C4516E267C9001EE6CD /* DMFood.m */; };
+		52E32C4916E26E80001EE6CD /* SelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E32C4816E26E80001EE6CD /* SelectController.m */; };
+		52E32C5316E329B4001EE6CD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E32C5216E329B4001EE6CD /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52E3E5CB16E33AC600485FAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52E32C4116E266C1001EE6CD /* fmdb.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DD76FA10486AA7600D96B5E;
+			remoteInfo = fmdb;
+		};
+		52E3E5CD16E33AC600485FAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52E32C4116E266C1001EE6CD /* fmdb.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE4290EF12B42F870088BD94;
+			remoteInfo = FMDB;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		522B249B16E2239400A660C0 /* FoodSelectorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodSelectorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,7 +64,12 @@
 		52E32C2F16E23F07001EE6CD /* FoodListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodListController.m; sourceTree = "<group>"; };
 		52E32C3116E241E4001EE6CD /* EditFoodController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditFoodController.h; sourceTree = "<group>"; };
 		52E32C3216E241E4001EE6CD /* EditFoodController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditFoodController.m; sourceTree = "<group>"; };
-		52E32C4116E266C1001EE6CD /* fmdb.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = file; name = fmdb.xcodeproj; path = ../fmdb/fmdb.xcodeproj; sourceTree = "<group>"; };
+		52E32C4116E266C1001EE6CD /* fmdb.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = fmdb.xcodeproj; path = ../fmdb/fmdb.xcodeproj; sourceTree = "<group>"; };
+		52E32C4416E267C9001EE6CD /* DMFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMFood.h; sourceTree = "<group>"; };
+		52E32C4516E267C9001EE6CD /* DMFood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMFood.m; sourceTree = "<group>"; };
+		52E32C4716E26E80001EE6CD /* SelectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectController.h; sourceTree = "<group>"; };
+		52E32C4816E26E80001EE6CD /* SelectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectController.m; sourceTree = "<group>"; };
+		52E32C5216E329B4001EE6CD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52E32C5316E329B4001EE6CD /* QuartzCore.framework in Frameworks */,
 				522B24BD16E223D000A660C0 /* iAd.framework in Frameworks */,
 				522B24A016E2239400A660C0 /* UIKit.framework in Frameworks */,
 				522B24A216E2239400A660C0 /* Foundation.framework in Frameworks */,
@@ -65,6 +91,7 @@
 		522B249016E2239400A660C0 = {
 			isa = PBXGroup;
 			children = (
+				52E32C5216E329B4001EE6CD /* QuartzCore.framework */,
 				522B24DC16E2372700A660C0 /* Dependencies */,
 				522B24A516E2239400A660C0 /* FoodSelectorApp */,
 				522B249E16E2239400A660C0 /* Frameworks */,
@@ -134,6 +161,8 @@
 				52E32C2F16E23F07001EE6CD /* FoodListController.m */,
 				52E32C3116E241E4001EE6CD /* EditFoodController.h */,
 				52E32C3216E241E4001EE6CD /* EditFoodController.m */,
+				52E32C4716E26E80001EE6CD /* SelectController.h */,
+				52E32C4816E26E80001EE6CD /* SelectController.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -141,8 +170,19 @@
 		52E32C2A16E23DCD001EE6CD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				52E32C4416E267C9001EE6CD /* DMFood.h */,
+				52E32C4516E267C9001EE6CD /* DMFood.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		52E3E5C716E33AC600485FAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52E3E5CC16E33AC600485FAA /* fmdb */,
+				52E3E5CE16E33AC600485FAA /* libFMDB.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,12 +224,35 @@
 			mainGroup = 522B249016E2239400A660C0;
 			productRefGroup = 522B249C16E2239400A660C0 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 52E3E5C716E33AC600485FAA /* Products */;
+					ProjectRef = 52E32C4116E266C1001EE6CD /* fmdb.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				522B249A16E2239400A660C0 /* FoodSelectorApp */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		52E3E5CC16E33AC600485FAA /* fmdb */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = fmdb;
+			remoteRef = 52E3E5CB16E33AC600485FAA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		52E3E5CE16E33AC600485FAA /* libFMDB.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFMDB.a;
+			remoteRef = 52E3E5CD16E33AC600485FAA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		522B249916E2239400A660C0 /* Resources */ = {
@@ -216,6 +279,8 @@
 				52E32C2D16E23EC5001EE6CD /* BaseiAdViewController.m in Sources */,
 				52E32C3016E23F07001EE6CD /* FoodListController.m in Sources */,
 				52E32C3316E241E4001EE6CD /* EditFoodController.m in Sources */,
+				52E32C4616E267C9001EE6CD /* DMFood.m in Sources */,
+				52E32C4916E26E80001EE6CD /* SelectController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

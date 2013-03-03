@@ -9,6 +9,10 @@
 #import "FoodListController.h"
 
 @interface FoodListController ()
+{
+    UITableView *foodTB;
+    NSMutableArray *foodArr;
+}
 
 @end
 
@@ -23,10 +27,26 @@
     return self;
 }
 
+-(id)initWithFoodArr:(NSArray*)arr
+{
+    if(self =[super init])
+    {
+        foodArr = [NSMutableArray array];
+        
+    }
+    return self;
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    CGRect appRect = [[UIScreen mainScreen] applicationFrame];
+    foodTB = [[UITableView alloc] initWithFrame:CGRectMake(0, bannerView.frame.size.height, appRect.size.width, appRect.size.height-bannerView.frame.size.height)];
+    foodTB.backgroundColor = [UIColor cyanColor];
+    [self.view addSubview:foodTB];
+    foodTB.delegate = self;
+    foodTB.dataSource = self;
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,4 +55,21 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return foodArr.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *identifier = @"FoodCell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
+    if (!cell)
+    {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
+    }
+    cell.textLabel.text = [foodArr objectAtIndex:indexPath.row];
+    return cell;
+    
+}
 @end
