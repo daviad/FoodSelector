@@ -24,6 +24,12 @@
 		52E32C4616E267C9001EE6CD /* DMFood.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E32C4516E267C9001EE6CD /* DMFood.m */; };
 		52E32C4916E26E80001EE6CD /* SelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E32C4816E26E80001EE6CD /* SelectController.m */; };
 		52E32C5316E329B4001EE6CD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E32C5216E329B4001EE6CD /* QuartzCore.framework */; };
+		E42CF17816E5BCD200A79479 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E42CF17716E5BCD200A79479 /* libsqlite3.dylib */; };
+		E451101A16E4C97700DE2B46 /* BaseDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = E451101416E4C97700DE2B46 /* BaseDAO.m */; };
+		E451101B16E4C97700DE2B46 /* DataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E451101716E4C97700DE2B46 /* DataBaseManager.m */; };
+		E451101C16E4C97700DE2B46 /* DatabaseTablesSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = E451101916E4C97700DE2B46 /* DatabaseTablesSingleton.m */; };
+		E451102016E4CAB000DE2B46 /* RCLog.m in Sources */ = {isa = PBXBuildFile; fileRef = E451101F16E4CAB000DE2B46 /* RCLog.m */; };
+		E4975D9C16E767F500D9307A /* libFMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E3E5CE16E33AC600485FAA /* libFMDB.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +45,13 @@
 			containerPortal = 52E32C4116E266C1001EE6CD /* fmdb.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = EE4290EF12B42F870088BD94;
+			remoteInfo = FMDB;
+		};
+		E42CF17B16E5BD6000A79479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52E32C4116E266C1001EE6CD /* fmdb.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EE4290EE12B42F870088BD94;
 			remoteInfo = FMDB;
 		};
 /* End PBXContainerItemProxy section */
@@ -70,6 +83,16 @@
 		52E32C4716E26E80001EE6CD /* SelectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectController.h; sourceTree = "<group>"; };
 		52E32C4816E26E80001EE6CD /* SelectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectController.m; sourceTree = "<group>"; };
 		52E32C5216E329B4001EE6CD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E42CF17716E5BCD200A79479 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		E451101316E4C97700DE2B46 /* BaseDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDAO.h; sourceTree = "<group>"; };
+		E451101416E4C97700DE2B46 /* BaseDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDAO.m; sourceTree = "<group>"; };
+		E451101516E4C97700DE2B46 /* DatabaseConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseConstants.h; sourceTree = "<group>"; };
+		E451101616E4C97700DE2B46 /* DataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseManager.h; sourceTree = "<group>"; };
+		E451101716E4C97700DE2B46 /* DataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseManager.m; sourceTree = "<group>"; };
+		E451101816E4C97700DE2B46 /* DatabaseTablesSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseTablesSingleton.h; sourceTree = "<group>"; };
+		E451101916E4C97700DE2B46 /* DatabaseTablesSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseTablesSingleton.m; sourceTree = "<group>"; };
+		E451101E16E4CAB000DE2B46 /* RCLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCLog.h; sourceTree = "<group>"; };
+		E451101F16E4CAB000DE2B46 /* RCLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCLog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +100,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4975D9C16E767F500D9307A /* libFMDB.a in Frameworks */,
+				E42CF17816E5BCD200A79479 /* libsqlite3.dylib in Frameworks */,
 				52E32C5316E329B4001EE6CD /* QuartzCore.framework in Frameworks */,
 				522B24BD16E223D000A660C0 /* iAd.framework in Frameworks */,
 				522B24A016E2239400A660C0 /* UIKit.framework in Frameworks */,
@@ -91,6 +116,7 @@
 		522B249016E2239400A660C0 = {
 			isa = PBXGroup;
 			children = (
+				E42CF17716E5BCD200A79479 /* libsqlite3.dylib */,
 				522B24DC16E2372700A660C0 /* Dependencies */,
 				522B24A516E2239400A660C0 /* FoodSelectorApp */,
 				522B249E16E2239400A660C0 /* Frameworks */,
@@ -121,6 +147,8 @@
 		522B24A516E2239400A660C0 /* FoodSelectorApp */ = {
 			isa = PBXGroup;
 			children = (
+				E451101D16E4CAAF00DE2B46 /* Log */,
+				E451101216E4C97700DE2B46 /* DataBase */,
 				52E32C2A16E23DCD001EE6CD /* Model */,
 				52E32C2916E23DC2001EE6CD /* UI */,
 				522B24AE16E2239400A660C0 /* AppDelegate.h */,
@@ -185,6 +213,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		E451101216E4C97700DE2B46 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				E451101316E4C97700DE2B46 /* BaseDAO.h */,
+				E451101416E4C97700DE2B46 /* BaseDAO.m */,
+				E451101516E4C97700DE2B46 /* DatabaseConstants.h */,
+				E451101616E4C97700DE2B46 /* DataBaseManager.h */,
+				E451101716E4C97700DE2B46 /* DataBaseManager.m */,
+				E451101816E4C97700DE2B46 /* DatabaseTablesSingleton.h */,
+				E451101916E4C97700DE2B46 /* DatabaseTablesSingleton.m */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		E451101D16E4CAAF00DE2B46 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				E451101E16E4CAB000DE2B46 /* RCLog.h */,
+				E451101F16E4CAB000DE2B46 /* RCLog.m */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -199,6 +250,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				E42CF17C16E5BD6000A79479 /* PBXTargetDependency */,
 			);
 			name = FoodSelectorApp;
 			productName = FoodSelectorApp;
@@ -281,10 +333,22 @@
 				52E32C3316E241E4001EE6CD /* EditFoodController.m in Sources */,
 				52E32C4616E267C9001EE6CD /* DMFood.m in Sources */,
 				52E32C4916E26E80001EE6CD /* SelectController.m in Sources */,
+				E451101A16E4C97700DE2B46 /* BaseDAO.m in Sources */,
+				E451101B16E4C97700DE2B46 /* DataBaseManager.m in Sources */,
+				E451101C16E4C97700DE2B46 /* DatabaseTablesSingleton.m in Sources */,
+				E451102016E4CAB000DE2B46 /* RCLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E42CF17C16E5BD6000A79479 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			targetProxy = E42CF17B16E5BD6000A79479 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		522B24A816E2239400A660C0 /* InfoPlist.strings */ = {

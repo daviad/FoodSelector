@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "BaseiAdViewController.h"
+#import "BaseDAO.h"
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
