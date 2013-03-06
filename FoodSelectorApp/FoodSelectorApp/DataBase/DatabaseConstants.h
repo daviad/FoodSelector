@@ -15,33 +15,28 @@
 
 
 #pragma mark TableName
-#define DATABASE_NAME  @"db_campus_cloud.db"
+#define DATABASE_NAME  @"db_foodSelecte.db"
     	
-#define TABLE_NAME_PERSONAL_MESSAGES       @"_goods"
+
+#define TABLE_NAME_FOOD                    @"_food"
 
 
 
-#define CREATE_TABLE_PM @"CREATE TABLE " TABLE_NAME_PERSONAL_MESSAGES                                       \
-                                "("                                                                         \
-                                    PM_ID                       " TEXT PRIMARY KEY,"                        \
-                                    PM_TYPE                     " TEXT,"                                    \
-                                    PM_CONTENT_TYPE             " TEXT,"                                    \
-                                    PM_TEXT                     " TEXT,"                                    \
-                                    PM_DELETE                   " TEXT,"                                    \
-                                    PM_DIRECTION                " TEXT,"                                    \
-                                    PM_OTHER_ID                 " TEXT,"                                    \
-                                    PM_IS_READ                  " TEXT,"                                    \
-                                    PM_ATTACHEMENT                 " TEXT,"                                    \
-                                    PM_TIME                     " TEXT,"                                     \
-                                    PM_USERID                   " TEXT,"                                    \
-                                    PM_MOBILE                   " TEXT,"                                    \
-                                    PM_STATUS                   " TEXT,"                                     \
-                                    PM_SPECIAL_EMO              " TEXT,"                                        \
-                                    EXTENDS_1                       " TEXT,"                                    \
-                                    EXTENDS_2                       " TEXT,"                                    \
-                                    EXTENDS_3                       " TEXT"                                     \
-                                ");"
-#define CREATE_TABLE_PM_INDEX @"CREATE index pm_otherId_index on "TABLE_NAME_PERSONAL_MESSAGES"("PM_OTHER_ID");"
+
+#define FOOD_ID        @"foodId"
+#define FOOD_NAME        @"name"
+#define FOOD_PRICE        @"price"
+#define FOOD_TYPE        @"type"
+#define FOOD_URL        @"url"
+
+#define CREATE_TABLE_FOOD @"CREATE TABLE " TABLE_NAME_FOOD                                       \
+"("                                                                         \
+FOOD_ID                       " TEXT PRIMARY KEY,"                        \
+FOOD_NAME                     " TEXT,"                                    \
+FOOD_PRICE                    " TEXT,"                                    \
+FOOD_TYPE                     " TEXT,"                                    \
+FOOD_URL                      " TEXT"                                    \
+");"
 
 
 #endif //fmdbtest_DatabaseConstants_h

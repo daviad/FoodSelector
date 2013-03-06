@@ -7,7 +7,8 @@
 //
 
 #import "EditFoodController.h"
-
+#import "DMFood.h"
+#import "FoodDAO.h"
 @interface EditFoodController ()
 
 @end
@@ -35,4 +36,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+-(void)save
+{
+    DMFood *food = [[DMFood alloc] init];
+    food.name = @"name1";
+    
+    NSDictionary *dic = @{FOOD_NAME: @"name1"};
+    
+    FoodDAO *dao = [[FoodDAO alloc] init];
+    [dao save:dic type:0 waitUntilDone:NO];
+}
 @end

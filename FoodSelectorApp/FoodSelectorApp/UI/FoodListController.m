@@ -13,11 +13,11 @@
     UITableView *foodTB;
     NSMutableArray *foodArr;
 }
-
+@property(nonatomic,strong)NSMutableArray *foodArr;
 @end
 
 @implementation FoodListController
-
+@synthesize foodArr;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -47,6 +47,12 @@
     [self.view addSubview:foodTB];
     foodTB.delegate = self;
     foodTB.dataSource = self;
+}
+
+
+-(void)readDataFromDB
+{
+    [];
 }
 
 - (void)didReceiveMemoryWarning

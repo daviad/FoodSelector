@@ -59,7 +59,7 @@ static DataBaseManager *sharedInstance;
 {
 	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory, NSUserDomainMask, YES);
     NSString *basePath = ([paths count] > 0) ? [paths objectAtIndex:0] : NSTemporaryDirectory();
-	NSString *appName = @"CampusCloud";
+	NSString *appName = @"FoodSelecte";
 	NSString *result = [basePath stringByAppendingPathComponent:appName];
 	NSFileManager *fileManager = [NSFileManager defaultManager];
 	if (![fileManager fileExistsAtPath:result])
@@ -78,13 +78,9 @@ static DataBaseManager *sharedInstance;
     {
         RCDebug(@"begin create table");
         [mainThreadDB beginTransaction];
-        
-       // [self tryToDropTable];
- //       [mainThreadDB executeUpdate:CREATE_TABLE_SMSSTATUS];
-        
+        [mainThreadDB executeUpdate:CREATE_TABLE_FOOD];
         if([mainThreadDB hadError])
             RCError(@"Error %d : %@",[mainThreadDB lastErrorCode],[mainThreadDB lastErrorMessage]);
-
         [mainThreadDB commit];
     }
     else
@@ -193,17 +189,7 @@ static DataBaseManager *sharedInstance;
 
 -(void)callBack:(id)result type:(int)type
 {
-//    if(type == kTaskMsgSaveJob)
-//        //invoke upload module
-//        [[NSNotificationCenter defaultCenter] postNotificationName:INVOKE_UPLOADMODULE object:nil userInfo:[NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithInt:uploadNotProcessed],TASK_STATUS, nil]] ;
-//    else
-//    {
-//       // RCTrace(@"type:%d,result:%@",type,result);
-//        if(type != 0)
-//            [Global sendMessageToControllers:type withResult:MESSAGE_SUCCESS withArg:result];
-//   
-//       
-//    }
+    RCTrace(@"%@,%d",result,type);
 }
 
 -(id)removeNSNullFromDic:(id)dic

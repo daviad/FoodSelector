@@ -51,11 +51,6 @@
 #endif
 
 
-
-
-
-
-
 #if RCLOG_LEVEL < RCLOG_LEVEL_FATAL
 #define RCFatal(fmt, ...) RCFUNC_EMPTY
 #else

@@ -15,4 +15,7 @@
 @property(nonatomic,assign)NSInteger selectedCount;
 @property(nonatomic,assign)NSInteger type;
 
+
++(NSMutableArray *)converFromDBDicArr:(NSArray*)arr;
+-(void)converFromSingleDBDic:(NSDictionary *)dic;
 @end

@@ -18,6 +18,8 @@
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = [[BaseiAdViewController alloc] init];
     [self.window makeKeyAndVisible];
+    [DataBaseManager sharedInstance];
+    
     return YES;
 }
 

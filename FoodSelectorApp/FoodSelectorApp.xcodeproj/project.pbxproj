@@ -30,6 +30,7 @@
 		E451101C16E4C97700DE2B46 /* DatabaseTablesSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = E451101916E4C97700DE2B46 /* DatabaseTablesSingleton.m */; };
 		E451102016E4CAB000DE2B46 /* RCLog.m in Sources */ = {isa = PBXBuildFile; fileRef = E451101F16E4CAB000DE2B46 /* RCLog.m */; };
 		E4975D9C16E767F500D9307A /* libFMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E3E5CE16E33AC600485FAA /* libFMDB.a */; };
+		E4975D9F16E77C8E00D9307A /* FoodDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = E4975D9E16E77C8D00D9307A /* FoodDAO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,8 @@
 		E451101916E4C97700DE2B46 /* DatabaseTablesSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseTablesSingleton.m; sourceTree = "<group>"; };
 		E451101E16E4CAB000DE2B46 /* RCLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCLog.h; sourceTree = "<group>"; };
 		E451101F16E4CAB000DE2B46 /* RCLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCLog.m; sourceTree = "<group>"; };
+		E4975D9D16E77C8D00D9307A /* FoodDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDAO.h; sourceTree = "<group>"; };
+		E4975D9E16E77C8D00D9307A /* FoodDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDAO.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +226,8 @@
 				E451101716E4C97700DE2B46 /* DataBaseManager.m */,
 				E451101816E4C97700DE2B46 /* DatabaseTablesSingleton.h */,
 				E451101916E4C97700DE2B46 /* DatabaseTablesSingleton.m */,
+				E4975D9D16E77C8D00D9307A /* FoodDAO.h */,
+				E4975D9E16E77C8D00D9307A /* FoodDAO.m */,
 			);
 			path = DataBase;
 			sourceTree = "<group>";
@@ -337,6 +342,7 @@
 				E451101B16E4C97700DE2B46 /* DataBaseManager.m in Sources */,
 				E451101C16E4C97700DE2B46 /* DatabaseTablesSingleton.m in Sources */,
 				E451102016E4CAB000DE2B46 /* RCLog.m in Sources */,
+				E4975D9F16E77C8E00D9307A /* FoodDAO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

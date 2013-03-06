@@ -14,5 +14,13 @@
 @synthesize price;
 @synthesize selectedCount;
 @synthesize type;
-
++(NSMutableArray *)converFromDBDicArr:(NSArray*)arr
+{
+    NSMutableArray *resultArr = [[NSMutableArray alloc] init];
+    return resultArr;
+}
+-(void)converFromSingleDBDic:(NSDictionary *)dic
+{
+    self.name = [dic objectForKey:@""];
+}
 @end

@@ -43,15 +43,14 @@ static DatabaseTablesSingleton *sharedInstance;
         _TablesInsertDicMap = [[NSMutableDictionary alloc] init];
         
         
-//        NSArray *smsStatus = [NSArray arrayWithObjects:
-//                              SMS_MOBILE,
-//                              SMS_USER_ID,
-//                              SMS_ACCEPT,
-//                              SMS_TIME,
-//                              SMS_CURRENTUSERID,
-//                              SMS_STATUS,nil];
-//        [self setMap:TABLE_NAME_SMS_STATUS Value:smsStatus];
-        
+
+        NSArray *foodArr = [NSArray arrayWithObjects:
+                            FOOD_ID,
+                            FOOD_NAME,
+                            FOOD_PRICE,
+                            FOOD_TYPE,
+                            FOOD_URL, nil];
+        [self setMap:TABLE_NAME_FOOD Value:foodArr];
         
     }
     return self;
