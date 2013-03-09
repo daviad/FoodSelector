@@ -9,6 +9,7 @@
 #import "FoodListController.h"
 #import "FoodDAO.h"
 #import "DMFood.h"
+#import "FoodListCell.h"
 @interface FoodListController ()
 {
     UITableView *foodTB;
@@ -70,13 +71,25 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    int row = indexPath.row;
     static NSString *identifier = @"FoodCell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
+    FoodListCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
     if (!cell)
     {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
+        cell = [[FoodListCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
+        
     }
-    cell.textLabel.text = [foodArr objectAtIndex:indexPath.row];
+    NSMutableArray *tempArr = [NSMutableArray arrayWithCapacity:FoodColumCount];
+    for (int i= row*FoodColumCount; i<FoodColumCount*row + FoodColumCount; i++)
+    {
+        if (i>= foodArr.count)
+        {
+            break;
+        }
+        [tempArr addObject:[foodArr objectAtIndex:i]];
+    }
+  
+    [cell loadData:[NSArray arrayWithArray:tempArr]];
     return cell;
     
 }

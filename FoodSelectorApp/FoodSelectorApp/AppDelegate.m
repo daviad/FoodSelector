@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "BaseiAdViewController.h"
+#import "SelectController.h"
 #import "BaseDAO.h"
 @implementation AppDelegate
 
@@ -16,7 +16,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [[BaseiAdViewController alloc] init];
+    self.window.rootViewController = [[SelectController alloc] init];
     [self.window makeKeyAndVisible];
     [DataBaseManager sharedInstance];
     

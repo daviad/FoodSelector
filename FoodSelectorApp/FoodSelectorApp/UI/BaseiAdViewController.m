@@ -118,6 +118,8 @@ CATransform3D CATransform3DPerspect(CATransform3D t, CGPoint center, float disZ)
     [bannerView setBackgroundColor:[UIColor greenColor]];
     [self.view addSubview:bannerView];
     
+     screenFrame = [[UIScreen mainScreen] applicationFrame];
+    
 //    
 //    tV = [[UIButton alloc] initWithFrame:CGRectMake(100, 200, 50, 50)];
 //    tV.backgroundColor = [UIColor redColor];

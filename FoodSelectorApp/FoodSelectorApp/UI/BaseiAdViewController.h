@@ -11,5 +11,6 @@
 @interface BaseiAdViewController : UIViewController
 {
     ADBannerView *bannerView;
+    CGRect screenFrame;
 }
 @end

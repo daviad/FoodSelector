@@ -17,6 +17,8 @@
 		522B24B416E2239400A660C0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 522B24B316E2239400A660C0 /* Default@2x.png */; };
 		522B24B616E2239400A660C0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 522B24B516E2239400A660C0 /* Default-568h@2x.png */; };
 		522B24BD16E223D000A660C0 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522B24BC16E223D000A660C0 /* iAd.framework */; };
+		52A926DC16EB321900BDBEC2 /* FoodLB.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A926DB16EB321900BDBEC2 /* FoodLB.m */; };
+		52A926E716EB625600BDBEC2 /* FoodListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A926E616EB625600BDBEC2 /* FoodListCell.m */; };
 		52E32C2D16E23EC5001EE6CD /* BaseiAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E32C2C16E23EC5001EE6CD /* BaseiAdViewController.m */; };
 		52E32C3016E23F07001EE6CD /* FoodListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E32C2F16E23F07001EE6CD /* FoodListController.m */; };
 		52E32C3316E241E4001EE6CD /* EditFoodController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E32C3216E241E4001EE6CD /* EditFoodController.m */; };
@@ -72,6 +74,10 @@
 		522B24B316E2239400A660C0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		522B24B516E2239400A660C0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		522B24BC16E223D000A660C0 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		52A926DA16EB321900BDBEC2 /* FoodLB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodLB.h; sourceTree = "<group>"; };
+		52A926DB16EB321900BDBEC2 /* FoodLB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodLB.m; sourceTree = "<group>"; };
+		52A926E516EB625600BDBEC2 /* FoodListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodListCell.h; sourceTree = "<group>"; };
+		52A926E616EB625600BDBEC2 /* FoodListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodListCell.m; sourceTree = "<group>"; };
 		52E32C2B16E23EC5001EE6CD /* BaseiAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseiAdViewController.h; sourceTree = "<group>"; };
 		52E32C2C16E23EC5001EE6CD /* BaseiAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseiAdViewController.m; sourceTree = "<group>"; };
 		52E32C2E16E23F07001EE6CD /* FoodListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodListController.h; sourceTree = "<group>"; };
@@ -194,6 +200,10 @@
 				52E32C3216E241E4001EE6CD /* EditFoodController.m */,
 				52E32C4716E26E80001EE6CD /* SelectController.h */,
 				52E32C4816E26E80001EE6CD /* SelectController.m */,
+				52A926DA16EB321900BDBEC2 /* FoodLB.h */,
+				52A926DB16EB321900BDBEC2 /* FoodLB.m */,
+				52A926E516EB625600BDBEC2 /* FoodListCell.h */,
+				52A926E616EB625600BDBEC2 /* FoodListCell.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -343,6 +353,8 @@
 				E451101C16E4C97700DE2B46 /* DatabaseTablesSingleton.m in Sources */,
 				E451102016E4CAB000DE2B46 /* RCLog.m in Sources */,
 				E4975D9F16E77C8E00D9307A /* FoodDAO.m in Sources */,
+				52A926DC16EB321900BDBEC2 /* FoodLB.m in Sources */,
+				52A926E716EB625600BDBEC2 /* FoodListCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,11 +433,13 @@
 		522B24BA16E2239400A660C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FoodSelectorApp/FoodSelectorApp-Prefix.pch";
 				INFOPLIST_FILE = "FoodSelectorApp/FoodSelectorApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../fmdb/src/**";
 				WRAPPER_EXTENSION = app;
 			};
@@ -434,11 +448,13 @@
 		522B24BB16E2239400A660C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FoodSelectorApp/FoodSelectorApp-Prefix.pch";
 				INFOPLIST_FILE = "FoodSelectorApp/FoodSelectorApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../fmdb/src/**";
 				WRAPPER_EXTENSION = app;
 			};
