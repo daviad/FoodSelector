@@ -10,4 +10,5 @@
 
 @interface FoodListController : BaseiAdViewController<UITableViewDelegate,UITableViewDataSource>
 
+-(id)initWithFoodArr:(NSMutableArray*)arr;
 @end

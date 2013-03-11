@@ -8,6 +8,6 @@
 
 #import "BaseiAdViewController.h"
 
-@interface SelectController : BaseiAdViewController
+@interface SelectController : BaseiAdViewController<UIScrollViewDelegate>
 
 @end

@@ -30,11 +30,11 @@
     
         lb1 = [[FoodLB alloc] initWithFrame:CGRectMake(0, 0, 320/FoodColumCount, 44)];
         [self.contentView addSubview:lb1];
-        lb2 = [[FoodLB alloc] initWithFrame:CGRectMake(0, 320/4, 320/FoodColumCount, 44)];
+        lb2 = [[FoodLB alloc] initWithFrame:CGRectMake(320/4, 0, 320/FoodColumCount, 44)];
         [self.contentView addSubview:lb2];
-        lb3 = [[FoodLB alloc] initWithFrame:CGRectMake(0, 320/2, 320/FoodColumCount, 44)];
+        lb3 = [[FoodLB alloc] initWithFrame:CGRectMake(320/2, 0, 320/FoodColumCount, 44)];
         [self.contentView addSubview:lb3];
-        lb4 = [[FoodLB alloc] initWithFrame:CGRectMake(0, 320/2*3, 320/FoodColumCount, 44)];
+        lb4 = [[FoodLB alloc] initWithFrame:CGRectMake(320/2*3, 0, 320/FoodColumCount, 44)];
         [self.contentView addSubview:lb4];
     }
     return self;
@@ -52,6 +52,16 @@
 {
 //    for (int i; i<arr.count; i++)
 //    {
+    
+    if (0 == arr.count)
+    {
+        [lb1 removeFromSuperview];
+        [lb2 removeFromSuperview];
+        [lb3 removeFromSuperview];
+        [lb4 removeFromSuperview];
+
+    }
+    
     if (1==arr.count) {
         DMFood *food1 = [arr objectAtIndex:0];
         [lb1 setText:food1.name];

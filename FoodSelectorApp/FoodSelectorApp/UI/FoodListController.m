@@ -29,11 +29,11 @@
     return self;
 }
 
--(id)initWithFoodArr:(NSArray*)arr
+-(id)initWithFoodArr:(NSMutableArray*)arr
 {
     if(self =[super init])
     {
-        foodArr = [NSMutableArray array];
+        self.foodArr = arr;
         
     }
     return self;
@@ -49,14 +49,7 @@
     [self.view addSubview:foodTB];
     foodTB.delegate = self;
     foodTB.dataSource = self;
-    [self    readDataFromDB];
-}
-
-
--(void)readDataFromDB
-{
-    DMFood *f =[[DMFood alloc] init];
-    self.foodArr = [f searchAllFood];
+   
 }
 
 - (void)didReceiveMemoryWarning
@@ -67,7 +60,7 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return foodArr.count;
+    return foodArr.count/FoodColumCount + 1;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -78,7 +71,7 @@
     if (!cell)
     {
         cell = [[FoodListCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
-        
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
     }
     NSMutableArray *tempArr = [NSMutableArray arrayWithCapacity:FoodColumCount];
     for (int i= row*FoodColumCount; i<FoodColumCount*row + FoodColumCount; i++)
