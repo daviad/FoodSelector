@@ -52,17 +52,50 @@
 {
 //    for (int i; i<arr.count; i++)
 //    {
-    DMFood *food1 = [arr objectAtIndex:0];
-    [lb1 setText:food1.name];
+    if (1==arr.count) {
+        DMFood *food1 = [arr objectAtIndex:0];
+        [lb1 setText:food1.name];
+    }
+
+    if (2 == arr.count)
+    {
+        DMFood *food1 = [arr objectAtIndex:0];
+        [lb1 setText:food1.name];
+
+        
+        DMFood *food2 = [arr objectAtIndex:1];
+        [lb2 setText:food2.name];
+    }
+
+    if (3 == arr.count)
+    {
+        DMFood *food1 = [arr objectAtIndex:0];
+        [lb1 setText:food1.name];
+        
+        
+        DMFood *food2 = [arr objectAtIndex:1];
+        [lb2 setText:food2.name];
+        
+        DMFood *food3 = [arr objectAtIndex:2];
+        [lb3 setText:food3.name];
+    }
     
-    DMFood *food2 = [arr objectAtIndex:1];
-    [lb2 setText:food2.name];
-    
-    DMFood *food3 = [arr objectAtIndex:2];
-    [lb3 setText:food3.name];
-    
-    DMFood *food4 = [arr objectAtIndex:3];
-    [lb4 setText:food4.name];
+    if (4 ==arr.count)
+    {
+        DMFood *food1 = [arr objectAtIndex:0];
+        [lb1 setText:food1.name];
+        
+        
+        DMFood *food2 = [arr objectAtIndex:1];
+        [lb2 setText:food2.name];
+        
+        DMFood *food3 = [arr objectAtIndex:2];
+        [lb3 setText:food3.name];
+        
+        DMFood *food4 = [arr objectAtIndex:3];
+        [lb4 setText:food4.name];
+    }
+
     
 //    }
 }

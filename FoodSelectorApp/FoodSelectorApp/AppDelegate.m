@@ -16,7 +16,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [[SelectController alloc] init];
+    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:[[SelectController alloc] init]];
+    self.window.rootViewController = navi;
     [self.window makeKeyAndVisible];
     [DataBaseManager sharedInstance];
     

@@ -49,6 +49,7 @@
     [self.view addSubview:foodTB];
     foodTB.delegate = self;
     foodTB.dataSource = self;
+    [self    readDataFromDB];
 }
 
 

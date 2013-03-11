@@ -86,6 +86,12 @@
     
 }
 
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    self.navigationController.navigationBarHidden = YES;
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -100,8 +106,9 @@
 -(void)openMenu
 {
     FoodListController   *c = [[FoodListController alloc] init];
-    UINavigationController *navC = [[UINavigationController alloc] initWithRootViewController:c];
-    [self.view addSubview:navC.view];
+    self.navigationController.navigationBarHidden = NO;
+    [self.navigationController pushViewController:c animated:YES];
+
 }
 
 -(void)openSetting

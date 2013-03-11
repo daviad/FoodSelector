@@ -277,13 +277,22 @@ static NSDictionary *dicColumnMap = nil;
 -(NSString *)generateQuerySQLWith:(NSDictionary *)dic
 {
     NSString *condition = @"";
-    for (NSString *column in [dic allKeys])
-        condition = [condition stringByAppendingFormat:CONDITION_WITH_KEY,column,column];
-    int len = [condition length]- LengthOfAnd;
-    if (len<0) {
-        len = 0;
+    if ([dic allValues].count>0)
+    {
+        for (NSString *column in [dic allKeys])
+            condition = [condition stringByAppendingFormat:CONDITION_WITH_KEY,column,column];
+        int len = [condition length]- LengthOfAnd;
+        if (len<0) {
+            len = 0;
+        }
+        condition = [condition substringToIndex:len];
+
     }
-    condition = [condition substringToIndex:len];
+    else
+    {
+        condition = @"1=1";
+    }
+     
     NSString *sql = [NSString stringWithFormat:SELECT_QUERY,self.tableName,condition];
     return sql;
 }
