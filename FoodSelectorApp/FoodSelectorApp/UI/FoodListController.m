@@ -58,6 +58,18 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    UIBarButtonItem *rBtn = [[UIBarButtonItem alloc] initWithTitle:@"add" style:UIBarButtonItemStyleBordered target:self action:@selector(addFood)];
+    self.navigationItem.rightBarButtonItem = rBtn;
+}
+
+-(void)addFood
+{
+    RCTrace(@"add");
+}
+
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return foodArr.count/FoodColumCount + 1;

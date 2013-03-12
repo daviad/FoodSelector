@@ -31,6 +31,11 @@
 		E451101B16E4C97700DE2B46 /* DataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E451101716E4C97700DE2B46 /* DataBaseManager.m */; };
 		E451101C16E4C97700DE2B46 /* DatabaseTablesSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = E451101916E4C97700DE2B46 /* DatabaseTablesSingleton.m */; };
 		E451102016E4CAB000DE2B46 /* RCLog.m in Sources */ = {isa = PBXBuildFile; fileRef = E451101F16E4CAB000DE2B46 /* RCLog.m */; };
+		E48B09A316EF3AE0001CA31B /* UINavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E48B09A216EF3ADF001CA31B /* UINavigationBar.m */; };
+		E48B09A816EF4BC9001CA31B /* AlertAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E48B09A716EF4BC9001CA31B /* AlertAnimationView.m */; };
+		E48B09AB16EF4FDB001CA31B /* MaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = E48B09AA16EF4FDB001CA31B /* MaskView.m */; };
+		E48B09B516EF5266001CA31B /* UIColor+Extends.m in Sources */ = {isa = PBXBuildFile; fileRef = E48B09B416EF5266001CA31B /* UIColor+Extends.m */; };
+		E48B09B816EF54F7001CA31B /* AddFoodView.m in Sources */ = {isa = PBXBuildFile; fileRef = E48B09B716EF54F7001CA31B /* AddFoodView.m */; };
 		E4975D9C16E767F500D9307A /* libFMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E3E5CE16E33AC600485FAA /* libFMDB.a */; };
 		E4975D9F16E77C8E00D9307A /* FoodDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = E4975D9E16E77C8D00D9307A /* FoodDAO.m */; };
 /* End PBXBuildFile section */
@@ -100,6 +105,16 @@
 		E451101916E4C97700DE2B46 /* DatabaseTablesSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseTablesSingleton.m; sourceTree = "<group>"; };
 		E451101E16E4CAB000DE2B46 /* RCLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCLog.h; sourceTree = "<group>"; };
 		E451101F16E4CAB000DE2B46 /* RCLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCLog.m; sourceTree = "<group>"; };
+		E48B09A116EF3ADF001CA31B /* UINavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UINavigationBar.h; sourceTree = "<group>"; };
+		E48B09A216EF3ADF001CA31B /* UINavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINavigationBar.m; sourceTree = "<group>"; };
+		E48B09A616EF4BC9001CA31B /* AlertAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertAnimationView.h; sourceTree = "<group>"; };
+		E48B09A716EF4BC9001CA31B /* AlertAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertAnimationView.m; sourceTree = "<group>"; };
+		E48B09A916EF4FDB001CA31B /* MaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskView.h; sourceTree = "<group>"; };
+		E48B09AA16EF4FDB001CA31B /* MaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskView.m; sourceTree = "<group>"; };
+		E48B09B316EF5266001CA31B /* UIColor+Extends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extends.h"; path = "FoodSelectorApp/UIColor+Extends.h"; sourceTree = SOURCE_ROOT; };
+		E48B09B416EF5266001CA31B /* UIColor+Extends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extends.m"; path = "FoodSelectorApp/UIColor+Extends.m"; sourceTree = SOURCE_ROOT; };
+		E48B09B616EF54F6001CA31B /* AddFoodView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFoodView.h; sourceTree = "<group>"; };
+		E48B09B716EF54F7001CA31B /* AddFoodView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFoodView.m; sourceTree = "<group>"; };
 		E4975D9D16E77C8D00D9307A /* FoodDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDAO.h; sourceTree = "<group>"; };
 		E4975D9E16E77C8D00D9307A /* FoodDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDAO.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,6 +171,8 @@
 		522B24A516E2239400A660C0 /* FoodSelectorApp */ = {
 			isa = PBXGroup;
 			children = (
+				E48B09AC16EF51D0001CA31B /* Extends */,
+				E48B09A516EF4B9C001CA31B /* alertview */,
 				E451101D16E4CAAF00DE2B46 /* Log */,
 				E451101216E4C97700DE2B46 /* DataBase */,
 				52E32C2A16E23DCD001EE6CD /* Model */,
@@ -204,6 +221,10 @@
 				52A926DB16EB321900BDBEC2 /* FoodLB.m */,
 				52A926E516EB625600BDBEC2 /* FoodListCell.h */,
 				52A926E616EB625600BDBEC2 /* FoodListCell.m */,
+				E48B09A116EF3ADF001CA31B /* UINavigationBar.h */,
+				E48B09A216EF3ADF001CA31B /* UINavigationBar.m */,
+				E48B09B616EF54F6001CA31B /* AddFoodView.h */,
+				E48B09B716EF54F7001CA31B /* AddFoodView.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -249,6 +270,26 @@
 				E451101F16E4CAB000DE2B46 /* RCLog.m */,
 			);
 			path = Log;
+			sourceTree = "<group>";
+		};
+		E48B09A516EF4B9C001CA31B /* alertview */ = {
+			isa = PBXGroup;
+			children = (
+				E48B09A616EF4BC9001CA31B /* AlertAnimationView.h */,
+				E48B09A716EF4BC9001CA31B /* AlertAnimationView.m */,
+				E48B09A916EF4FDB001CA31B /* MaskView.h */,
+				E48B09AA16EF4FDB001CA31B /* MaskView.m */,
+			);
+			path = alertview;
+			sourceTree = "<group>";
+		};
+		E48B09AC16EF51D0001CA31B /* Extends */ = {
+			isa = PBXGroup;
+			children = (
+				E48B09B316EF5266001CA31B /* UIColor+Extends.h */,
+				E48B09B416EF5266001CA31B /* UIColor+Extends.m */,
+			);
+			path = Extends;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -355,6 +396,11 @@
 				E4975D9F16E77C8E00D9307A /* FoodDAO.m in Sources */,
 				52A926DC16EB321900BDBEC2 /* FoodLB.m in Sources */,
 				52A926E716EB625600BDBEC2 /* FoodListCell.m in Sources */,
+				E48B09A316EF3AE0001CA31B /* UINavigationBar.m in Sources */,
+				E48B09A816EF4BC9001CA31B /* AlertAnimationView.m in Sources */,
+				E48B09AB16EF4FDB001CA31B /* MaskView.m in Sources */,
+				E48B09B516EF5266001CA31B /* UIColor+Extends.m in Sources */,
+				E48B09B816EF54F7001CA31B /* AddFoodView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

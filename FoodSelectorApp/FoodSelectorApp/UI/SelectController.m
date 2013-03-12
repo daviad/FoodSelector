@@ -10,6 +10,12 @@
 #import "FoodListController.h"
 #import "FoodDAO.h"
 #import "DMFood.h"
+
+
+
+
+
+
 @interface SelectController ()
 {
     UIScrollView *scrollView;
@@ -158,6 +164,11 @@ static int repeatCount = 0;
 -(void)openMenu
 {
     FoodListController   *c = [[FoodListController alloc] initWithFoodArr:foodArr];
+//    UINavigationBar *bar = [[UINavigationBar alloc] initWithFrame:CGRectMake(0, 0, 320, 44)];
+//    UINavigationItem  *navItem = [[UINavigationItem alloc] int];
+//    UIBarButtonItem  *rightBtn = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@""] style:UIBarButtonSystemItemAdd target:self action:@selector(addFood)];
+
+    
     self.navigationController.navigationBarHidden = NO;
     [self.navigationController pushViewController:c animated:YES];
 
