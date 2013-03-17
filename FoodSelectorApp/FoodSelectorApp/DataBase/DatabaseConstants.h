@@ -31,7 +31,7 @@
 
 #define CREATE_TABLE_FOOD @"CREATE TABLE " TABLE_NAME_FOOD                                       \
 "("                                                                         \
-FOOD_ID                       " TEXT PRIMARY KEY,"                        \
+FOOD_ID                       " INTEGER PRIMARY KEY AUTOINCREMENT,"                        \
 FOOD_NAME                     " TEXT,"                                    \
 FOOD_PRICE                    " TEXT,"                                    \
 FOOD_TYPE                     " TEXT,"                                    \

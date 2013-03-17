@@ -10,8 +10,8 @@
 
 @interface AddFoodView : MaskView
 {
-   
+   UITextField *foodFiled;
 }
-@property(nonatomic,retain)   NSArray *tagArr;
+@property(nonatomic,retain)    UITextField *foodFiled;
 
 @end

@@ -9,7 +9,7 @@
 #import "AddFoodView.h"
 #import "UIColor+Extends.h"
 @implementation AddFoodView
-@synthesize tagArr;
+@synthesize foodFiled;
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
@@ -21,25 +21,13 @@
 
 -(float)LayOutContentView:(UIView *)view
 {
-    int const W = 80;
-    int const H = 29;
-    int x = 8;
-    int y = 5;
-    for (int i = 0; i<tagArr.count; i++)
-    {
-        x = (i % 3) * (W +8) + 12;
-        y = (i / 3) * (H+8) + 7;
-        UIButton *tagBtn = [[UIButton alloc] initWithFrame:CGRectMake(x, y, W, H)];
-        [view addSubview:tagBtn];
-        [tagBtn setTitle:[tagArr objectAtIndex:i] forState:UIControlStateNormal];
-        tagBtn.tag = 200+i;
-        tagBtn.titleLabel.font = [UIFont systemFontOfSize:12];
-        tagBtn.backgroundColor = kColorWithValue(0xa0d5c5);
-        
-        [tagBtn addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
-      
-    }
-    return y+H +15;
+    foodFiled = [[UITextField alloc] initWithFrame:CGRectMake(0, 13, 200, 40)];
+    foodFiled.center = CGPointMake(self.center.x-20, foodFiled.center.y);
+    foodFiled.backgroundColor = [UIColor whiteColor];
+    foodFiled.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
+    foodFiled.borderStyle =UITextBorderStyleLine;
+    [view addSubview:foodFiled];
+    return 60;
 }
 
 

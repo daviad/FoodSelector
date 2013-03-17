@@ -10,15 +10,11 @@
 #import "UIColor+Extends.h"
 #define ScreenHeight    [[UIScreen mainScreen] bounds].size.height -20
 
-NSString *const kBtnCyanBgImageName =  @"common_btn_cyan";
-NSString *const kBtnOrangeBgImageName = @"common_btn_orange";
-
-
 @interface MaskView()
 {
     float defalutContentHeight;
     UIImageView *headBackGround;
-    
+    CGFloat contentH;
 }
 @property (nonatomic,copy)NSString *contentString;
 @end
@@ -37,12 +33,14 @@ NSString *const kBtnOrangeBgImageName = @"common_btn_orange";
      self = [self initWithFrame:frame withActionButton:NO];
     if (self) {
         // Initialization code
+        [self addSomeObserver];
+
     }
     return self;
 }
 
 - (id)initWithFrame:(CGRect)frame withActionButton:(BOOL)flag
-{
+{ [self addSomeObserver];
 #define DEFAULT_HEIGHT  47.0f
     self = [super initWithFrame:frame];
     if (self)
@@ -88,9 +86,9 @@ NSString *const kBtnOrangeBgImageName = @"common_btn_orange";
         if(flag)
         {
             actionView = [[UIView alloc] init];
-//            confirmbutton = [UIButton loochaStdButtonWithFrame:CGRectMake(150, BUTTON_TOP_MARGIN, BUTTON_WIDTH, BUTTON_HEIGHT)
-//                                                         title:NSLocalizedString(@"Ok", )
-//                                           backgroundImageName:kBtnOrangeBgImageName];
+            confirmbutton = [UIButton loochaStdButtonWithFrame:CGRectMake(150, BUTTON_TOP_MARGIN, BUTTON_WIDTH, BUTTON_HEIGHT)
+                                                         title:@"好"//NSLocalizedString(@"Ok", )
+                                           backgroundImageName:kBtnOrangeBgImageName];
             UIImageView *line = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, [self viewWidth], 1)];
             line.backgroundColor = [UIColor hexChangeFloat:@"C6C6C6"];
             [actionView addSubview:line];
@@ -99,9 +97,9 @@ NSString *const kBtnOrangeBgImageName = @"common_btn_orange";
             [actionView addSubview:confirmbutton];
             [confirmbutton addTarget:self action:@selector(buttonSend:) forControlEvents:UIControlEventTouchUpInside];
             
-//            cancelButton =[UIButton loochaStdButtonWithFrame:CGRectMake(25, BUTTON_TOP_MARGIN, BUTTON_WIDTH, BUTTON_HEIGHT)
-//                                                       title:NSLocalizedString(@"Cancel", )
-//                                         backgroundImageName:kBtnCyanBgImageName];
+            cancelButton =[UIButton loochaStdButtonWithFrame:CGRectMake(25, BUTTON_TOP_MARGIN, BUTTON_WIDTH, BUTTON_HEIGHT)
+                                                       title:@"取消"//NSLocalizedString(@"Cancel", )
+                                         backgroundImageName:kBtnCyanBgImageName];
             [actionView addSubview:cancelButton];
             [cancelButton addTarget:self action:@selector(buttonCancel:) forControlEvents:UIControlEventTouchUpInside];
             
@@ -128,6 +126,7 @@ NSString *const kBtnOrangeBgImageName = @"common_btn_orange";
 -(void)initContentView
 {
     //contentLabel =[[TTLoochaStyledTextLabel alloc] init];
+    contentLabel = [[UILabel alloc] init];
     contentLabel.backgroundColor = [UIColor clearColor];
     contentLabel.font = [UIFont systemFontOfSize:15];
     contentLabel.textColor = [UIColor hexChangeFloat:@"393939"];
@@ -155,7 +154,7 @@ NSString *const kBtnOrangeBgImageName = @"common_btn_orange";
     
     contentView.frame = CGRectMake(headBackGround.frame.origin.x, headBackGround.frame.origin.y + headBackGround.frame.size.height, [self viewWidth],defalutContentHeight);
     float contenth = [self LayOutContentView:contentView];
-    
+    contentH = contenth;
     if(actionView)
     {
         actionView.frame = CGRectMake(0,contenth , [self viewWidth], ACTIONVIEW_HEIGHT);
@@ -186,11 +185,13 @@ NSString *const kBtnOrangeBgImageName = @"common_btn_orange";
 
 -(float)LayOutContentView:(UIView *)view
 {
-    contentLabel.frame =  CGRectMake(10, 0, contentView.frame.size.width - 20, defalutContentHeight);
+       CGSize sz = [contentString sizeWithFont:[UIFont systemFontOfSize:14] constrainedToSize:CGSizeMake(contentView.frame.size.width - 20, 1000) lineBreakMode:NSLineBreakByWordWrapping]; 
 //    contentLabel.text = [TTStyledText textFromXHTML:contentString lineBreaks:YES URLs:YES];
-    [contentLabel sizeToFit];
+//    [contentLabel sizeToFit];
 //    defalutContentHeight = contentLabel.text.height + 20;
-    contentLabel.frame =  CGRectMake(10, 10, contentView.frame.size.width - 20, defalutContentHeight - 20);
+    contentLabel.frame =  CGRectMake(10, 10, contentView.frame.size.width - 20,sz.height);
+
+    defalutContentHeight = sz.height + 20;
     return defalutContentHeight;
 }
 
@@ -252,4 +253,60 @@ NSString *const kBtnOrangeBgImageName = @"common_btn_orange";
 
 
 
+
+
+
+
+-(void)addSomeObserver
+{
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(showKeyboard:)
+                                                 name:UIKeyboardWillShowNotification
+                                               object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(dismissKeyboard:)
+                                                 name:UIKeyboardWillHideNotification
+                                               object:nil];
+}
+
+-(void)remvoveSomeObserver
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardWillShowNotification object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardWillHideNotification object:nil];
+    
+}
+
+- (void)showKeyboard:(NSNotification *)notification
+{
+    NSValue *keyboardBoundsValue = [[notification userInfo] objectForKey:UIKeyboardFrameEndUserInfoKey];
+    CGFloat duration = [[[notification userInfo] objectForKey:@"UIKeyboardAnimationDurationUserInfoKey"] floatValue];
+    
+    CGRect keyboardBounds;
+    [keyboardBoundsValue getValue:&keyboardBounds];
+    CGFloat theKeyboardHeight = keyboardBounds.size.height ;
+    
+    
+    
+    CGRect r = self.frame ;
+    [UIView animateWithDuration:duration animations:^{
+        
+        self.frame = CGRectMake(r.origin.x, 12-theKeyboardHeight+contentH+ACTIONVIEW_HEIGHT+BUTTON_TOP_MARGIN, r.size.width, r.size.height);
+    }];
+    
+    
+}
+- (void)dismissKeyboard:(NSNotification *)notification
+{
+    CGRect r = self.frame ;
+    [UIView animateWithDuration:0.25 animations:^{
+        self.frame = CGRectMake(r.origin.x, 12, r.size.width, r.size.height);
+        
+    }];
+    
+    
+}
+-(void)dealloc
+{
+    [self remvoveSomeObserver];
+}
 @end

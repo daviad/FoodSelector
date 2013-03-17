@@ -12,9 +12,10 @@
 
 - (void)drawRect:(CGRect)rect
 {
+    self.backgroundColor =   [UIColor colorWithRed:210.0/255 green:133.0/255 blue:122.0/255 alpha:1];
 
-    UIImage *image = [UIImage imageNamed:@"nav_bgView"];
-    [image drawInRect:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
+//    UIImage *image = [UIImage imageNamed:@"nav_bgView"];
+//    [image drawInRect:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
 	
 }
 

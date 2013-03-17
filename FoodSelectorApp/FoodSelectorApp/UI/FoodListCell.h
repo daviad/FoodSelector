@@ -7,8 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DMFood.h"  
+#import "DMFood.h" 
+#import "FoodLB.h"
 #define FoodColumCount   4
-@interface FoodListCell : UITableViewCell
+@class DMFood;
+@protocol FoodListCellDelegate <NSObject>
+-(void)deleteFood:(DMFood*)food;
+@end
+@interface FoodListCell : UITableViewCell<FoodLB>
+{
+    id<FoodListCellDelegate>delegate;
+}
+@property    id<FoodListCellDelegate>delegate;
+
 -(void)loadData:(NSArray*)arr;
 @end

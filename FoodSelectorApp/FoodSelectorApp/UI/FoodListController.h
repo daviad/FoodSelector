@@ -7,8 +7,12 @@
 //
 
 #import "BaseiAdViewController.h"
+#import "MaskView.h"
+#import "FoodListCell.h"
 
-@interface FoodListController : BaseiAdViewController<UITableViewDelegate,UITableViewDataSource>
+#define MessageTypeSaveFood   101
+
+@interface FoodListController : BaseiAdViewController<UITableViewDelegate,UITableViewDataSource,MaskViewDelegate,FoodListCellDelegate>
 
 -(id)initWithFoodArr:(NSMutableArray*)arr;
 @end

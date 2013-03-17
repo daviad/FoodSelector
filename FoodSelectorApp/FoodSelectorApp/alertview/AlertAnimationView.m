@@ -148,7 +148,6 @@ typedef void (^AHAnimationCompletionBlock)(BOOL); // Internal.
 
 
 
-
 - (void)show
 {
 	

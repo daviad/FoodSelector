@@ -7,16 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "DMFood.h"
 @protocol FoodLB <NSObject>
 
--(void)deleteFood;
+-(void)deleteFood:(DMFood*)food;
 
 @end
 @interface FoodLB : UIView
 {
    __weak id<FoodLB> LBDelegate;
+    DMFood *food;
 }
 @property(nonatomic,weak)id<FoodLB>LBDelegate;
--(void)setText:(NSString*)text;
+
+@property(nonatomic,strong)DMFood *food;
+
+-(void)updateData:(DMFood *)f;
 @end

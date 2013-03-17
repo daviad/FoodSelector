@@ -190,6 +190,7 @@ static DataBaseManager *sharedInstance;
 -(void)callBack:(id)result type:(int)type
 {
     RCTrace(@"%@,%d",result,type);
+  //  [[NSNotificationCenter defaultCenter] postNotification:<#(NSNotification *)#>]
 }
 
 -(id)removeNSNullFromDic:(id)dic

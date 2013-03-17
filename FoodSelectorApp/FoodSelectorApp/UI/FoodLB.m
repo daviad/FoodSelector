@@ -11,38 +11,43 @@
 @interface FoodLB()
 {
     UILabel *content;
+  
 }
 
 @end
 
 @implementation FoodLB
 @synthesize LBDelegate;
-
+@synthesize food;
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
-        content = [[UILabel alloc] initWithFrame:CGRectInset(frame, 5, 5)];
+        content = [[UILabel alloc] initWithFrame:CGRectInset(self.bounds, 7, 7)];
         content.textAlignment = NSTextAlignmentCenter;
-        content.textColor = [UIColor yellowColor];
+        content.textColor = [UIColor whiteColor];
+        content.backgroundColor = [UIColor colorWithRed:210.0/255 green:133.0/255 blue:122.0/255 alpha:1];
+        [self addSubview:content];
         
         self.backgroundColor = [UIColor clearColor];
         
-        UIButton *deleBtn = [[UIButton alloc] initWithFrame:CGRectMake(frame.size.width-20, 0, 20, 20)];
-        deleBtn.backgroundColor = [UIColor blackColor];
+        UIButton *deleBtn = [[UIButton alloc] initWithFrame:CGRectMake(frame.size.width-16, 1, 15, 15)];
+        deleBtn.backgroundColor = [UIColor redColor];
         [deleBtn addTarget:self action:@selector(deleteFood) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:deleBtn];
     }
     return self;
 }
--(void)setText:(NSString*)text
+-(void)updateData:(DMFood *)f
 {
-    content.text = text;
+    content.text = f.name;
+    self.food = f;
 }
+
 -(void)deleteFood
 {
-    [LBDelegate deleteFood];
+    [LBDelegate deleteFood:food];
 }
 
 @end

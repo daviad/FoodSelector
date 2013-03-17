@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface DMFood : NSObject
-@property(nonatomic,strong)NSString *foodId;
+@property(nonatomic,strong)NSString* foodId;
 @property(nonatomic,strong)NSString *name;
 @property(nonatomic,strong)NSString *price;
 @property(nonatomic,assign)NSInteger selectedCount;

@@ -44,6 +44,7 @@
 -(void)converFromSingleDBDic:(NSDictionary *)dic
 {
     self.name = [dic objectForKey:FOOD_NAME];
+    self.foodId = [dic objectForKey:FOOD_ID];
 }
 
 

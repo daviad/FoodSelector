@@ -17,6 +17,17 @@
 		522B24B416E2239400A660C0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 522B24B316E2239400A660C0 /* Default@2x.png */; };
 		522B24B616E2239400A660C0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 522B24B516E2239400A660C0 /* Default-568h@2x.png */; };
 		522B24BD16E223D000A660C0 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522B24BC16E223D000A660C0 /* iAd.framework */; };
+		5244B1B316F440A4009AF45E /* UIButton+Extends.m in Sources */ = {isa = PBXBuildFile; fileRef = 5244B1B016F440A4009AF45E /* UIButton+Extends.m */; };
+		5244B1B416F440A4009AF45E /* UIColor+Extends.m in Sources */ = {isa = PBXBuildFile; fileRef = 5244B1B216F440A4009AF45E /* UIColor+Extends.m */; };
+		5244B1B716F44181009AF45E /* Extends.m in Sources */ = {isa = PBXBuildFile; fileRef = 5244B1B616F44181009AF45E /* Extends.m */; };
+		5244B1BD16F446C4009AF45E /* common_btn_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 5244B1B916F446C4009AF45E /* common_btn_orange.png */; };
+		5244B1BE16F446C4009AF45E /* common_btn_orange_touch.png in Resources */ = {isa = PBXBuildFile; fileRef = 5244B1BA16F446C4009AF45E /* common_btn_orange_touch.png */; };
+		5244B1BF16F446C4009AF45E /* mask_View_ContentBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5244B1BB16F446C4009AF45E /* mask_View_ContentBackground@2x.png */; };
+		5244B1C016F446C4009AF45E /* mask_View_Title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5244B1BC16F446C4009AF45E /* mask_View_Title@2x.png */; };
+		5244B1C316F44782009AF45E /* common_btn_cyan_touch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5244B1C116F44782009AF45E /* common_btn_cyan_touch@2x.png */; };
+		5244B1C416F44782009AF45E /* common_btn_cyan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5244B1C216F44782009AF45E /* common_btn_cyan@2x.png */; };
+		5244B1C716F5A4E9009AF45E /* DazFlake.png in Resources */ = {isa = PBXBuildFile; fileRef = 5244B1C616F5A4E9009AF45E /* DazFlake.png */; };
+		5244B1CB16F5A628009AF45E /* EmittCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5244B1CA16F5A628009AF45E /* EmittCell.m */; };
 		52A926DC16EB321900BDBEC2 /* FoodLB.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A926DB16EB321900BDBEC2 /* FoodLB.m */; };
 		52A926E716EB625600BDBEC2 /* FoodListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A926E616EB625600BDBEC2 /* FoodListCell.m */; };
 		52E32C2D16E23EC5001EE6CD /* BaseiAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E32C2C16E23EC5001EE6CD /* BaseiAdViewController.m */; };
@@ -34,7 +45,6 @@
 		E48B09A316EF3AE0001CA31B /* UINavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E48B09A216EF3ADF001CA31B /* UINavigationBar.m */; };
 		E48B09A816EF4BC9001CA31B /* AlertAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E48B09A716EF4BC9001CA31B /* AlertAnimationView.m */; };
 		E48B09AB16EF4FDB001CA31B /* MaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = E48B09AA16EF4FDB001CA31B /* MaskView.m */; };
-		E48B09B516EF5266001CA31B /* UIColor+Extends.m in Sources */ = {isa = PBXBuildFile; fileRef = E48B09B416EF5266001CA31B /* UIColor+Extends.m */; };
 		E48B09B816EF54F7001CA31B /* AddFoodView.m in Sources */ = {isa = PBXBuildFile; fileRef = E48B09B716EF54F7001CA31B /* AddFoodView.m */; };
 		E4975D9C16E767F500D9307A /* libFMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E3E5CE16E33AC600485FAA /* libFMDB.a */; };
 		E4975D9F16E77C8E00D9307A /* FoodDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = E4975D9E16E77C8D00D9307A /* FoodDAO.m */; };
@@ -79,6 +89,21 @@
 		522B24B316E2239400A660C0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		522B24B516E2239400A660C0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		522B24BC16E223D000A660C0 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		5244B1AF16F440A4009AF45E /* UIButton+Extends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extends.h"; sourceTree = "<group>"; };
+		5244B1B016F440A4009AF45E /* UIButton+Extends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extends.m"; sourceTree = "<group>"; };
+		5244B1B116F440A4009AF45E /* UIColor+Extends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extends.h"; sourceTree = "<group>"; };
+		5244B1B216F440A4009AF45E /* UIColor+Extends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extends.m"; sourceTree = "<group>"; };
+		5244B1B516F44181009AF45E /* Extends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Extends.h; sourceTree = "<group>"; };
+		5244B1B616F44181009AF45E /* Extends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Extends.m; sourceTree = "<group>"; };
+		5244B1B916F446C4009AF45E /* common_btn_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = common_btn_orange.png; sourceTree = "<group>"; };
+		5244B1BA16F446C4009AF45E /* common_btn_orange_touch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = common_btn_orange_touch.png; sourceTree = "<group>"; };
+		5244B1BB16F446C4009AF45E /* mask_View_ContentBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mask_View_ContentBackground@2x.png"; sourceTree = "<group>"; };
+		5244B1BC16F446C4009AF45E /* mask_View_Title@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mask_View_Title@2x.png"; sourceTree = "<group>"; };
+		5244B1C116F44782009AF45E /* common_btn_cyan_touch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_btn_cyan_touch@2x.png"; sourceTree = "<group>"; };
+		5244B1C216F44782009AF45E /* common_btn_cyan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_btn_cyan@2x.png"; sourceTree = "<group>"; };
+		5244B1C616F5A4E9009AF45E /* DazFlake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazFlake.png; sourceTree = "<group>"; };
+		5244B1C916F5A628009AF45E /* EmittCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmittCell.h; sourceTree = "<group>"; };
+		5244B1CA16F5A628009AF45E /* EmittCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmittCell.m; sourceTree = "<group>"; };
 		52A926DA16EB321900BDBEC2 /* FoodLB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodLB.h; sourceTree = "<group>"; };
 		52A926DB16EB321900BDBEC2 /* FoodLB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodLB.m; sourceTree = "<group>"; };
 		52A926E516EB625600BDBEC2 /* FoodListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodListCell.h; sourceTree = "<group>"; };
@@ -111,8 +136,6 @@
 		E48B09A716EF4BC9001CA31B /* AlertAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertAnimationView.m; sourceTree = "<group>"; };
 		E48B09A916EF4FDB001CA31B /* MaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskView.h; sourceTree = "<group>"; };
 		E48B09AA16EF4FDB001CA31B /* MaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskView.m; sourceTree = "<group>"; };
-		E48B09B316EF5266001CA31B /* UIColor+Extends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extends.h"; path = "FoodSelectorApp/UIColor+Extends.h"; sourceTree = SOURCE_ROOT; };
-		E48B09B416EF5266001CA31B /* UIColor+Extends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extends.m"; path = "FoodSelectorApp/UIColor+Extends.m"; sourceTree = SOURCE_ROOT; };
 		E48B09B616EF54F6001CA31B /* AddFoodView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFoodView.h; sourceTree = "<group>"; };
 		E48B09B716EF54F7001CA31B /* AddFoodView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFoodView.m; sourceTree = "<group>"; };
 		E4975D9D16E77C8D00D9307A /* FoodDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDAO.h; sourceTree = "<group>"; };
@@ -171,7 +194,8 @@
 		522B24A516E2239400A660C0 /* FoodSelectorApp */ = {
 			isa = PBXGroup;
 			children = (
-				E48B09AC16EF51D0001CA31B /* Extends */,
+				5244B1B816F446C3009AF45E /* image */,
+				5244B1AE16F440A4009AF45E /* Extends */,
 				E48B09A516EF4B9C001CA31B /* alertview */,
 				E451101D16E4CAAF00DE2B46 /* Log */,
 				E451101216E4C97700DE2B46 /* DataBase */,
@@ -206,6 +230,33 @@
 			name = Dependencies;
 			sourceTree = "<group>";
 		};
+		5244B1AE16F440A4009AF45E /* Extends */ = {
+			isa = PBXGroup;
+			children = (
+				5244B1AF16F440A4009AF45E /* UIButton+Extends.h */,
+				5244B1B016F440A4009AF45E /* UIButton+Extends.m */,
+				5244B1B116F440A4009AF45E /* UIColor+Extends.h */,
+				5244B1B216F440A4009AF45E /* UIColor+Extends.m */,
+				5244B1B516F44181009AF45E /* Extends.h */,
+				5244B1B616F44181009AF45E /* Extends.m */,
+			);
+			path = Extends;
+			sourceTree = "<group>";
+		};
+		5244B1B816F446C3009AF45E /* image */ = {
+			isa = PBXGroup;
+			children = (
+				5244B1C116F44782009AF45E /* common_btn_cyan_touch@2x.png */,
+				5244B1C616F5A4E9009AF45E /* DazFlake.png */,
+				5244B1C216F44782009AF45E /* common_btn_cyan@2x.png */,
+				5244B1B916F446C4009AF45E /* common_btn_orange.png */,
+				5244B1BA16F446C4009AF45E /* common_btn_orange_touch.png */,
+				5244B1BB16F446C4009AF45E /* mask_View_ContentBackground@2x.png */,
+				5244B1BC16F446C4009AF45E /* mask_View_Title@2x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 		52E32C2916E23DC2001EE6CD /* UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,6 +276,8 @@
 				E48B09A216EF3ADF001CA31B /* UINavigationBar.m */,
 				E48B09B616EF54F6001CA31B /* AddFoodView.h */,
 				E48B09B716EF54F7001CA31B /* AddFoodView.m */,
+				5244B1C916F5A628009AF45E /* EmittCell.h */,
+				5244B1CA16F5A628009AF45E /* EmittCell.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -281,15 +334,6 @@
 				E48B09AA16EF4FDB001CA31B /* MaskView.m */,
 			);
 			path = alertview;
-			sourceTree = "<group>";
-		};
-		E48B09AC16EF51D0001CA31B /* Extends */ = {
-			isa = PBXGroup;
-			children = (
-				E48B09B316EF5266001CA31B /* UIColor+Extends.h */,
-				E48B09B416EF5266001CA31B /* UIColor+Extends.m */,
-			);
-			path = Extends;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,6 +416,13 @@
 				522B24B416E2239400A660C0 /* Default@2x.png in Resources */,
 				522B24B616E2239400A660C0 /* Default-568h@2x.png in Resources */,
 				52E32C4216E266C1001EE6CD /* fmdb.xcodeproj in Resources */,
+				5244B1BD16F446C4009AF45E /* common_btn_orange.png in Resources */,
+				5244B1BE16F446C4009AF45E /* common_btn_orange_touch.png in Resources */,
+				5244B1BF16F446C4009AF45E /* mask_View_ContentBackground@2x.png in Resources */,
+				5244B1C016F446C4009AF45E /* mask_View_Title@2x.png in Resources */,
+				5244B1C316F44782009AF45E /* common_btn_cyan_touch@2x.png in Resources */,
+				5244B1C416F44782009AF45E /* common_btn_cyan@2x.png in Resources */,
+				5244B1C716F5A4E9009AF45E /* DazFlake.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,8 +450,11 @@
 				E48B09A316EF3AE0001CA31B /* UINavigationBar.m in Sources */,
 				E48B09A816EF4BC9001CA31B /* AlertAnimationView.m in Sources */,
 				E48B09AB16EF4FDB001CA31B /* MaskView.m in Sources */,
-				E48B09B516EF5266001CA31B /* UIColor+Extends.m in Sources */,
 				E48B09B816EF54F7001CA31B /* AddFoodView.m in Sources */,
+				5244B1B316F440A4009AF45E /* UIButton+Extends.m in Sources */,
+				5244B1B416F440A4009AF45E /* UIColor+Extends.m in Sources */,
+				5244B1B716F44181009AF45E /* Extends.m in Sources */,
+				5244B1CB16F5A628009AF45E /* EmittCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
