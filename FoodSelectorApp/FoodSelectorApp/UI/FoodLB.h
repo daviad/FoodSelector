@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "DMFood.h"
+@class FoodLB;
 @protocol FoodLB <NSObject>
 
--(void)deleteFood:(DMFood*)food;
+-(void)deleteFood:(FoodLB*)lb;
 
 @end
 @interface FoodLB : UIView

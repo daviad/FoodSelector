@@ -47,7 +47,7 @@
 
 -(void)deleteFood
 {
-    [LBDelegate deleteFood:food];
+    [LBDelegate deleteFood:self];
 }
 
 @end

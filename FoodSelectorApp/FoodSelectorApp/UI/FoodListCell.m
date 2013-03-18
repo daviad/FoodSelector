@@ -62,6 +62,12 @@
     [lb3 removeFromSuperview];
     [lb4 removeFromSuperview];
     
+    lb1.alpha = 1;
+    lb2.alpha = 1;
+    lb3.alpha = 1;
+    lb4.alpha = 1;
+    
+    
     if (0 == arr.count)
     {
 
@@ -135,8 +141,37 @@
     
 //    }
 }
--(void)deleteFood:(DMFood*)food
+
+
+
+//删除动画
+-(void)deleteAnimateion:(id)deletV
 {
-    [delegate deleteFood:food];
+    NSMutableArray *vArr = [NSMutableArray array];
+
+    for (UIView *v in  self.contentView.subviews)
+    {
+        if ([v isKindOfClass:[FoodLB class]])
+        {
+            [vArr addObject:v];
+        }
+    }
+    
+  [vArr removeObject:deletV];
+    
+    
+}
+
+
+-(void)deleteFood:(FoodLB*)lb
+{
+    
+    [UIView animateWithDuration:0.3 animations:^{
+        lb.alpha = 0;
+    } completion:^(BOOL finished) {
+         [delegate deleteFood:lb.food];
+    }];
+    
+   
 }
 @end
